@@ -850,7 +850,11 @@ img {
 		text-align: center;
 	}
 }
-
+@media screen and (max-width: 372px) {
+	.program .section__titles {
+		flex-direction: column;
+	}
+}
 /* For medium devices */
 @media screen and (min-width: 768px) {
 	.nav__menu {
